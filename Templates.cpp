@@ -40,6 +40,7 @@ int main(int argc, char *argv[])
 	
 	int tempInt = someFoo.bar();
 	
-
-
+	// We can make as many different types of Foo as we want!
+	Foo<double> fooOfDoubles;
+	Foo<char *> fooOfCharPtr;
 }
