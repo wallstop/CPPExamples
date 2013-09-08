@@ -1,5 +1,5 @@
 /*
-	Prints out fibonacci numbers starting at 0 and going up to n in a single method call.
+	Prints out fibonacci numbers starting at 1 and going up to n in a single method call.
 */
 
 #include <iostream>
