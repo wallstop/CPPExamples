@@ -19,9 +19,9 @@ int recursiveFibonacci(const unsigned n)
 	std::cout << secondLast << std::endl;
 
 	if(n == 0 || n ==1 )
-		return 1;
+		return secondLast;
 	else
-		return n + recursiveFibonacci(n - 1);
+		return secondLast + recursiveFibonacci(n - 1);
 }
 
 int main(int argc, char *argv[])
